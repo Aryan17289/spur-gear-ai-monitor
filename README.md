@@ -232,17 +232,8 @@ It is the **spur gear module** of the broader **GearMind AI** platform, which co
 
 ## 📄 License
 
-This project is for academic and internship demonstration purposes.  
-© 2026 — Elecon Engineering Internship Project
+This project is for academic demonstration purposes.  
 
----
-
-## 👤 Author
-
-**Aryan** — Intern, Elecon Engineering Company Ltd.  
-GearMind AI — Predictive Maintenance System
-
----
 
 ## 🤝 Contributing
 
