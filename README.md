@@ -218,17 +218,6 @@ Test coverage includes:
 
 ---
 
-## 📸 Screenshots
-
-> _Add screenshots of your dashboard here_
-
-```
-[ Prediction & Risk Tab ]    [ Explainability Tab ]
-[ 3D Gear Digital Twin  ]    [ Maintenance Scheduler ]
-```
-
----
-
 ## 🏭 About the Project
 
 This system was developed as an **internship project at [Elecon Engineering Company Ltd.](https://www.elecon.com/)** — a global leader in industrial gear manufacturing.
