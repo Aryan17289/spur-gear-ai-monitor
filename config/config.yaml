@@ -1,0 +1,67 @@
+# Spur Gear AI Monitor Configuration
+
+app:
+  title: "Spur Gear AI Failure Monitor"
+  layout: "wide"
+  page_icon: "⚙️"
+
+model:
+  model_path: "models/spur_gear_svm_model.pkl"
+  scaler_path: "models/spur_gear_scaler.pkl"
+  dataset_path: "data/processed/spur_gear_svm_dataset.csv"
+
+database:
+  path: "data/gear_history.db"
+
+parameters:
+  speed:
+    min: 500
+    max: 3000
+    default: 1050
+    unit: "RPM"
+  torque:
+    min: 50
+    max: 400
+    default: 110
+    unit: "Nm"
+  vibration:
+    min: 0.5
+    max: 10.0
+    default: 1.4
+    unit: "mm/s"
+  temperature:
+    min: 30
+    max: 120
+    default: 57
+    unit: "°C"
+  shock:
+    min: 0.1
+    max: 6.0
+    default: 1.7
+    unit: "g"
+  noise:
+    min: 50
+    max: 100
+    default: 74
+    unit: "dB"
+
+thresholds:
+  danger:
+    speed: 2375
+    torque: 287
+    vibration: 7.6
+    temperature: 97
+    shock: 4.4
+    noise: 87
+
+risk_levels:
+  low: 30
+  moderate: 55
+  high: 80
+  critical: 100
+
+rul:
+  max_cycles_default: 1000
+  max_cycles_min: 500
+  max_cycles_max: 5000
+  max_cycles_step: 100
