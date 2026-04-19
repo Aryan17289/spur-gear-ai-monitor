@@ -217,18 +217,6 @@ Test coverage includes:
 
 ---
 
-## 🏭 About the Project
-
-This system was developed as an **internship project at [Elecon Engineering Company Ltd.](https://www.elecon.com/)** — a global leader in industrial gear manufacturing.
-
-It is the **spur gear module** of the broader **GearMind AI** platform, which covers:
-- 🔵 Spur Gear — SVM classifier *(this repo)*
-- 🟢 Helical Gear — Gradient Boosting Regressor
-- 🟠 Worm Gear — Logistic Regression
-- 🔴 Bevel Gear — XGBoost
-
----
-
 ## 📄 License
 
 This project is for academic demonstration purposes.  
