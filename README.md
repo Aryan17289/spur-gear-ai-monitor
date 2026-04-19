@@ -1,7 +1,6 @@
 # ⚙️ Spur Gear AI Failure Monitor
 
 > **Intelligent Predictive Maintenance System** for industrial spur gears — powered by SVM, SHAP/LIME explainability, a 3D digital twin, and an AI copilot.  
-> Built as part of the **GearMind AI** internship project at **Elecon Engineering Company Ltd.**
 
 ---
 
